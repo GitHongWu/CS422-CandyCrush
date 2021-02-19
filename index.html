@@ -209,12 +209,12 @@ $(document).on('click', ".btn", function(evt)
     console.log("clicked crush");
     rules.removeCrushes(rules.getCandyCrushes());
     rules.moveCandiesDown();
-    setTimeout(500);
-    moreToCrush();
-  	// setTimeout(function(){
-    //   rules.moveCandiesDown();
-    //   moreToCrush();
-    // }, 500);
+    // setTimeout(500);
+    // moreToCrush();
+  	setTimeout(function(){
+      rules.moveCandiesDown();
+      moreToCrush();
+    }, 500);
     
   }
   // autofocus when any button is pressed
