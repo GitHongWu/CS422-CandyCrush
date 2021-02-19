@@ -1,0 +1,99 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+
+/* Your css code here! */
+
+#gameTitle {
+	font-weight: bold;
+	color: red;
+}
+
+.btn {
+	margin:auto;
+	border: 1px solid black;
+}
+
+.btn-default:hover {background-color: darkgray;}
+
+table, tr, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+#gameBoard {
+	margin: auto;
+	width: 320px;
+	height: 320px;
+	table-layout: fixed;
+}
+
+#firstColumn {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#mainColumn {
+	padding: 10px;
+}
+
+#lastColumn {
+	padding: 10px;
+	margin: auto;
+}
+
+.candy-red {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: large;
+	background-color: red;
+}
+
+.candy-green {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: large;
+	background-color: green;
+}
+
+.candy-orange {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: large;
+	background-color: orange;
+}
+
+.candy-blue {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: large;
+	background-color: blue;
+}
+
+.candy-purple {
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: large;
+	background-color: purple;
+}
+
+.candy-yellow {
+	height: 100%;
+	width: 100%;
+	font-size: large;
+	color: gray;
+	background-color: yellow;
+}
+
+body {
+	margin: auto;
+	text-align: center;
+}
